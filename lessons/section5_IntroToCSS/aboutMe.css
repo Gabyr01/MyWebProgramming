@@ -1,9 +1,29 @@
+/*color system
+href - 16 base --> color:  #rrggbb
+rgb - 10 base --> color: rgb(255,255,255)
+transparency rgba() --> color: rgba(255,255,255,1)
+*/
 h1{
   color:purple;
+  /*
+  border-color: green;
+  border-width: 5px;
+  border-style: solid;
+  */
+
+  border: 5px dashed green;
 }
 li{
-  color:red;
+
 }
 h4{
-  color:green;
+  background: rgb(255,90,50);
+}
+body{
+  background: pink;
+  /*
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/68/1a/55/681a554b3dc86566c38678422b6daa80.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
 }

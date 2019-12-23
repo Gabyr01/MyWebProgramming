@@ -1,0 +1,15 @@
+body{
+  background: lightblue;
+}
+/*element*/
+li{
+  border: 2px solid red;
+}
+/* id */
+#special{
+  background: yellow;
+}
+/*class*/
+.completed{
+  text-decoration: line-through;
+}

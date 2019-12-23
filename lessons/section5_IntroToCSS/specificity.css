@@ -1,0 +1,44 @@
+/*type selectors
+li{
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+*/
+
+/*class attributs, and psuedo-calss selectors
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+*/
+/*ID Selectors
+#hello
+*/
+body{
+  color: red;
+}
+
+ul{
+  color: blue;
+}
+
+li{
+  color: orange;
+}
+
+.highlight{
+  color:yellow;
+}
+ #special{
+   color:pink;
+ }

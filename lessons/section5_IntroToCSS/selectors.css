@@ -1,0 +1,31 @@
+/*star: select everything on the page*/
+* {
+  border: 1px solid lightgrey;
+}
+/*descendant selector: selects specific element*/
+li a {
+  color:red;
+}
+
+/*adjecent selector: select sibling*/
+h4 + ul{
+  border: 4px solid red;
+}
+
+/*attribute selector: select elements based off of any attributes*/
+a[href="http://www.google.com"]{
+  background: blue;
+}
+/*
+input[type="checkbox"]{
+  background: blue;
+}
+*/
+/*nth of type*/
+li:nth-of-type(3){
+  background: purple;
+}
+/*every other li*/
+/* li:nth-of-type(even){
+  background: purple;
+} */
