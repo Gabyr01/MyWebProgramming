@@ -1,0 +1,49 @@
+/*font family--> https://fonts.google.com/*/
+p{
+  font-family: Arial;
+}
+
+h1{
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+/*font size--> em->(dynamic) or px*/
+body{
+  font-size: 10px;/* or px*/
+}
+h1{
+  font-size: 5.0em;
+}
+p{
+  font-size: 2.0em;
+}
+span{
+  font-size: 2.0em;
+  font-family: 'VT323', monospace;
+}
+
+/*font-weight-> 100-800*/
+p{
+  font-weight: bold;
+}
+
+/*line height*/
+p{
+  line-height: 2;
+}
+
+/*text align*/
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+/*text decoration*/
+p{
+  text-decoration: underline;
+}
+
+h1{
+  text-decoration: line-through;
+}
